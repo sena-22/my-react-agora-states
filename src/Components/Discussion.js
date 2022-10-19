@@ -11,7 +11,6 @@ const Discussion = ({ discussion }) => {
             alt="avatar of kimploo"
           />
         </div>
-
         <div className="discussion__content">
           <h2 className="discussion__title">
             <a href={discussion.url}>{discussion.title}</a>

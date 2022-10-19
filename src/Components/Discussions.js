@@ -46,7 +46,6 @@ const Discussions = () => {
     const newDiscussion = [discussion, ...data];
     setData(newDiscussion);
   };
-
   /* Paginaion*/
   const indexOfLast = currentPage * postsPerPage;
   const indexOfFirst = indexOfLast - postsPerPage;
