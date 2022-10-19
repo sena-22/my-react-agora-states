@@ -1,0 +1,50 @@
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  
+.discussion__container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1em 0;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+    opacity: 0.8;
+
+  }
+  
+  .discussion__container:hover {
+    background-color: rgba(193, 156, 226, 0.488);
+    transition: all 0.7s;
+
+  }
+  .discussion__avatar--image {
+    clip-path: circle();
+    width: 48px;
+  }
+  
+  .discussion__title {
+    text-align: center;
+  }
+  .discussion__information {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .discussion__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /*체크표시 중앙정렬*/
+  .discussion__answered {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
